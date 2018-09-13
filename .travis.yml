@@ -1,0 +1,16 @@
+language: python
+
+python:
+  - "3.6"
+  # - "3.7"  # no wheel available yet
+
+install:
+  - pip install pylint  # flake8
+
+script:
+- pylint -E *.py
+# - flake8 --max-line-length=120  # still broken for python 3.7 (13/9/18)
+
+branches:
+  only:
+    - master
