@@ -1,1 +1,6 @@
+# jupyter
+.ipynb_checkpoints
+
+# project
 data/*
+paths.json
