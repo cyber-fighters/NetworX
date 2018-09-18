@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ac6da84ae8aae56b028be93c2ccd4cd0b13dc048ed9d2ced43c4d34d61108440"
+            "sha256": "2d13769f9f2125da79a42a1e35817dc7559594ae605fb75989d002a0fa61c0ae"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -51,14 +51,6 @@
                 "sha256:702a91ade2968a82beb0db1e0766a6a273f33d4616a6ce8cde475d8e09853b20"
             ],
             "version": "==0.5.0"
-        },
-        "dpkt": {
-            "hashes": [
-                "sha256:aeb238020f689a1f7d328368d4fbaaaea48256249720e93e49343a053733735f",
-                "sha256:c6a7ee878fa3d56e2c1fb44846f937046ba03b035da27382596e76f8d9f32967"
-            ],
-            "index": "pypi",
-            "version": "==1.9.1"
         },
         "entrypoints": {
             "hashes": [
@@ -289,6 +281,13 @@
                 "sha256:7870b19e6a6b0ab3acc09ee65463c0ca7568b3a01a6902d7c4e1ed2c4fc4e176"
             ],
             "version": "==4.4.1"
+        },
+        "scapy": {
+            "hashes": [
+                "sha256:452f714f5c2eac6fd0a6146b1dbddfc24dd5f4103f3ed76227995a488cfb2b73"
+            ],
+            "index": "pypi",
+            "version": "==2.4.0"
         },
         "send2trash": {
             "hashes": [

@@ -4,9 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-dpkt = "*"
 jupyter = "*"
 ipykernel = "*"
+scapy = "*"
 
 [dev-packages]
 
