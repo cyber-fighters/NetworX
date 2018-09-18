@@ -7,6 +7,7 @@ name = "pypi"
 jupyter = "*"
 ipykernel = "*"
 scapy = "*"
+matplotlib = "*"
 
 [dev-packages]
 
