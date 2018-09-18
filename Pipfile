@@ -8,6 +8,8 @@ jupyter = "*"
 ipykernel = "*"
 scapy = "*"
 matplotlib = "*"
+pandas = "*"
+seaborn = "*"
 
 [dev-packages]
 
