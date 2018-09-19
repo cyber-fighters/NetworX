@@ -2,5 +2,6 @@
 
 # NetworX
 
-## Goal
-Malicious traffic detection
+## Goals
+* malicious traffic detection
+* device function identification
