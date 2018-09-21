@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 # get git directory
 ROOT=$(git rev-parse --show-toplevel)

@@ -1,4 +1,4 @@
-#!C:/Program\ Files/Git/usr/bin/sh.exe
+#!/bin/sh
 
 message_file=$1
 commit_msg=$(cat "${1:?Missing commit message file}")
