@@ -4,7 +4,7 @@
 ROOT=$(git rev-parse --show-toplevel)
 
 # set hook files to copy
-FILES=( "commit-msg" )
+FILES=( "commit-msg" "pre-commit" )
 
 # do it!
 for i in "${FILES[@]}"
