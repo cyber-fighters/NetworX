@@ -1,7 +1,7 @@
 #!/bin/sh
 
 message_file=$1
-commit_msg=$(cat "${1:?Missing commit message file}")
+commit_msg=$(head -1 "${1:?Missing commit message file}")
 
 # enforce start with capital letter
 if [[ $commit_msg =~ ^[A-Z]+.*$ ]]; then
@@ -13,9 +13,9 @@ fi
 
 # enforce maxium length
 MAX_LEN=50
-if [[ ${#commit_msg} -gt $MAX_LEN ]]; then
+if [[ ${#commit_msg} -lt $MAX_LEN ]]; then
   echo "[POLICY] Maximum message length test passed"
 else
-  echo "[POLICY] Please shorten your commit message to a maximum of $MAX_LEN characters"
+  echo "[POLICY] You commit message is too long (${#commit_msg} > $MAX_LEN)"
   exit 1
 fi
