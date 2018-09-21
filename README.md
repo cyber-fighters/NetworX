@@ -9,7 +9,19 @@
 ## Setup
 
 ### Files
-The file `data/paths.json` collects hardcoded paths to data files or other descriptive names of data attributes and has to be created by the user himself. It is not included in the repo for privacy reasons.
+The file `data/paths.json` collects hardcoded paths to data files or other descriptive names of data attributes and has to be created by the user himself. It is not included in the repo for privacy reasons. Example contents:
+```json
+{
+  "keywords": {
+    "file": "data/my_file_with_confidential_name.docx"
+  },
+  "data": {
+    "directory": ["data/confidential_data_0", "data/confidential_data_0"],
+    "test": "test_email_file.msg"
+  }
+}
+
+```
 
 ### Installation
 
